@@ -1,0 +1,34 @@
+export PATH=$PATH:/usr/local/cuda/bin:/usr/local/nvidia/bin
+export CPATH=$CPATH:/usr/local/cuda/include
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/nvidia/lib64
+export LD_LIBRARY_PATH=:$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/nvidia/lib64
+
+export LANG=en_US.UTF-8
+export LC_CTYPE="en_US.UTF-8"
+export LC_NUMERIC="en_US.UTF-8"
+export LC_TIME="en_US.UTF-8"
+export LC_COLLATE="en_US.UTF-8"
+export LC_MONETARY="en_US.UTF-8"
+export LC_MESSAGES="en_US.UTF-8"
+export LC_PAPER="en_US.UTF-8"
+export LC_NAME="en_US.UTF-8"
+export LC_ADDRESS="en_US.UTF-8"
+export LC_TELEPHONE="en_US.UTF-8"
+export LC_MEASUREMENT="en_US.UTF-8"
+export LC_IDENTIFICATION="en_US.UTF-8"
+export LC_ALL=en_US.UTF-8
+
+export GCC_COLORS=1
+export CLICOLOR=1
+
+# Python related
+export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/projects/Jacinle/bin:$PATH
+
+# Go related
+export GOPATH=$HOME/go
+export PATH=$HOME/Go/bin:$PATH
+
+alias ls="ls --color=tty --group-directories-first -X"
+alias mosh="mosh --experimental-remote-ip=remote"
+alias moshmit='mosh --experimental-remote-ip=remote --server="LD_PRELOAD=/data/vision/billf/scratch/jiayuanm/workspace/local/bin/libprotobuf.so.9 /afs/csail.mit.edu/u/j/jiayuanm/workspace/local/bin/mosh-server"'

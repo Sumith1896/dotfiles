@@ -1,0 +1,5 @@
+#!/bin/bash
+
+[ -f ~/.dotfiles ] || git clone --recursive https://github.com/Sumith1896/dotfiles ~/.dotfiles
+~/.dotfiles/bin/dfm-install
+
