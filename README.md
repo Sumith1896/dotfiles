@@ -18,4 +18,3 @@ dfm-package --help
 ## Acknowledgements
 
 - vacancy's dotfiles: https://github.com/vacancy/dotfiles
-
