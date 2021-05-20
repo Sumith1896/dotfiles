@@ -1,0 +1,2 @@
+dd if=/dev/zero of=output conv=fdatasync bs=384k count=1k; rm -f output
+
