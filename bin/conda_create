@@ -1,0 +1,3 @@
+conda install pyyaml imageio matplotlib tqdm scipy six pyzmq h5py numpy lmdb tabulate
+pip install sklearn ipdb opencv-python
+
